@@ -1,0 +1,21 @@
+.nav{
+    @apply  md:flex md:items-center md:justify-between;
+    .swell_logo{
+        @apply text-4xl font-[Roboto] text-purple-700 cursor-pointer;
+    }
+    .menu{
+        @apply md:flex md:items-center;
+        li{
+           @apply  mx-4;
+        }
+        a{
+            @apply text-xl hover:text-cyan-500 duration-500;
+        }
+    }
+    .start{
+        @apply mx-6 text-xl;
+    }
+    .btn_log{
+        @apply text-xl border-2 border-purple-700 w-28 h-10 rounded-md;
+    }
+}

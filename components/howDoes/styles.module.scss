@@ -1,0 +1,46 @@
+.table_parent{
+    @apply bg-gradient-to-b from-purple-100 to-white;
+    .how_does{
+        @apply md:text-4xl lg:text-4xl text-2xl text-center pt-16;
+    }
+    .table{
+        @apply grid justify-items-center mt-20 overflow-auto rounded  w-full;
+        .table_swell{
+            @apply md:text-3xl md:text-2xl text-xs text-purple-700  px-10;
+        }
+        .table_shopify{
+            @apply md:text-3xl md:text-2xl text-xs italic font-extrabold px-10;
+            .plus{
+                @apply font-thin;
+            }
+        }
+        .table_magento{
+            @apply md:text-3xl md:text-2xl text-xs font-extralight px-10;
+        }
+        .table_comerce{
+            @apply flex md:text-sm md:text-sm text-xs mt-2 px-10;
+            .comerce{
+                @apply md:text-2xl md:text-xl text-xs;
+            }
+        }
+        .table_tbody{
+            @apply mt-20;
+            .api{
+                @apply md:text-lg md:text-lg text-xs whitespace-nowrap;
+            }
+            .font_icon{
+                @apply w-5 h-5 text-green-700;
+            }
+            .headless{
+                @apply md:text-lg md:text-lg text-xs whitespace-nowrap;
+            }
+            .last_reviewed{
+                @apply md:text-lg md:text-lg text-xs whitespace-nowrap;
+            }
+        }
+    }
+    .table_footer{
+        @apply text-xl text-center text-purple-700 my-20;
+    }
+
+}

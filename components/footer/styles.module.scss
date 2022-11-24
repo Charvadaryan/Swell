@@ -1,0 +1,31 @@
+.footers{
+    @apply flex justify-center;
+    .partners{
+        @apply flex flex-wrap;
+        .partners_logo{
+            @apply  flex px-20 mt-32 md:text-4xl md:text-2xl text-2xl;
+        }
+        .smillo{
+            @apply flex px-20 mt-32 md:text-4xl md:text-2xl text-2xl font-bold;
+        }
+        .spinn{
+            @apply flex px-20 mt-32 md:text-4xl md:text-2xl text-2xl font-bold;
+        }
+        .great_heights{
+            @apply flex px-20 mt-32 md:text-4xl md:text-2xl text-2xl;
+        }
+    }
+    .footbar{
+        @apply grid grid-cols-2  md:grid-cols-5 gap-6 mt-48;
+
+    }
+    .footbar_foot{
+        @apply flex justify-between mt-24 mb-10;
+        .footer_chiled{
+            @apply flex justify-between md:text-lg md:text-base text-xs;
+            .privacy{
+                @apply mr-6 md:text-lg md:text-base text-xs;
+            }
+        }
+    }
+}

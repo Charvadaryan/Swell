@@ -1,0 +1,24 @@
+.wrapper{
+    @apply  md:flex md:justify-center mt-20;
+    .sell{
+        @apply md:text-7xl sm:text-6xl text-4xl;
+    } 
+}
+.swell_is_the_most_powerful{
+    @apply md:text-2xl lg:text-xl text-lg text-center mt-10;
+    .headless{
+        @apply text-purple-700;
+    }
+}
+.input_div{
+    @apply  md:flex md:justify-center mt-10;
+    input{
+        @apply md:w-64 sm:w-64 border-2 border-black  h-10 pl-4;
+    }
+    .btn_start{
+        @apply md:w-40 md:w-36 w-28 md:text-xl md:text-lg  h-10 bg-purple-700  text-white;
+    } 
+}
+.picture_1{
+    @apply md:flex md:justify-center ;
+}
