@@ -1,5 +1,5 @@
 .wrapper{
-    @apply  md:flex md:justify-center mt-20;
+    @apply  flex justify-center mt-20;
     .sell{
         @apply md:text-7xl sm:text-6xl text-4xl;
     } 
@@ -11,7 +11,7 @@
     }
 }
 .input_div{
-    @apply  md:flex md:justify-center mt-10;
+    @apply  flex justify-center mt-10;
     input{
         @apply md:w-64 sm:w-64 border-2 border-black  h-10 pl-4;
     }
@@ -20,5 +20,5 @@
     } 
 }
 .picture_1{
-    @apply md:flex md:justify-center ;
+    @apply md:flex md:justify-center mt-10;
 }

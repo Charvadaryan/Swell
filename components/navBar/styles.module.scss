@@ -1,5 +1,5 @@
 .nav{
-    @apply  md:flex md:items-center md:justify-between;
+    @apply  md:flex md:items-center md:justify-between mt-6;
     .swell_logo{
         @apply text-4xl font-[Roboto] text-purple-700 cursor-pointer;
     }

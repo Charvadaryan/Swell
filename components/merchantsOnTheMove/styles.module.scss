@@ -1,7 +1,7 @@
 .parent{
     @apply md:flex md:justify-center mt-10;
     .merchants{
-        @apply  md:text-8xl md:text-6xl text-4xl text-center mt-10;
+        @apply  md:text-8xl md:text-6xl text-3xl text-center mt-10;
     }
     .cards_big_div{
         @apply flex flex-wrap justify-center mt-24;
@@ -14,7 +14,7 @@
                 @apply flex justify-center mt-28 mb-10;
             }
             .modern{
-                @apply text-center text-2xl
+                @apply text-center md:text-2xl text-xl;
             }
             .soon_the_sun{
                 @apply text-center text-lg my-10;
@@ -29,7 +29,7 @@
                 }
             }
             .swell_has_been{
-                @apply text-center mt-20 text-2xl;
+                @apply text-center mt-20 md:text-2xl text-xl;
             }
             .roderick{
                 @apply text-center mt-10 text-lg;
@@ -47,7 +47,7 @@
                 @apply flex justify-center mt-24 mb-10;
             }
             .magento{
-               @apply text-center text-2xl; 
+               @apply text-center md:text-2xl text-xl; 
             }
             .ryan_bonifacino{
                 @apply text-center text-lg my-10;

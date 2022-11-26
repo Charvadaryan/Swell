@@ -8,19 +8,25 @@
         .made_for_div{
             @apply grid justify-items-center;
             .made_for_growth{
-                @apply md:text-4xl sm:text-2xl text-2xl;
+                @apply md:text-4xl sm:text-2xl text-2xl mt-6;
+            }
+            .until{
+                @apply text-center mt-6
             }
             .read_the_case{
                 @apply text-purple-700;
             }
         }
-    }
+    } 
     .pic_3_div{
-        @apply grid lg:grid-cols-2 mt-16;
+        @apply grid lg:grid-cols-2 md:mt-16;
         .commerce_without_div{
             @apply grid justify-items-center mt-10;
             .commerce_without{
-                @apply md:text-4xl sm:text-2xl text-2xl;
+                @apply  flex items-center md:text-4xl sm:text-2xl text-2xl text-center;
+            }
+            .free_your_storefront{
+                @apply text-center mt-6;
             }
             .tell_me_more{
                 @apply text-purple-700;

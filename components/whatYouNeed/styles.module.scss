@@ -6,7 +6,7 @@
     .check_div{
         @apply mt-16;
         .check_div_child{
-            @apply md:flex mt-2 ;
+            @apply flex mt-2 ;
             .font_icon{
                 @apply md:text-xl sm:w-3 w-3  mt-2 text-green-700;
             }
@@ -16,6 +16,6 @@
         }
     }
     .picture_4{
-        @apply md:flex md:justify-center relative bottom-32; 
+        @apply md:flex md:justify-center relative md:bottom-32; 
     }
 }

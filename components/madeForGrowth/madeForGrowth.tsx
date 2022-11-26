@@ -11,7 +11,7 @@ function MadeForGrowth() {
               </div>
               <div className={styles.made_for_div}>
                 <p className={styles.made_for_growth}>Made for growth</p>
-                <p>
+                <p className={styles.until}>
                   Until now, brands looking to stand out have been using a
                   <br />
                   patchwork of apps for legacy platforms or building from
@@ -30,7 +30,7 @@ function MadeForGrowth() {
             <div className={styles.pic_3_div}>
               <div className={styles.commerce_without_div}>
                 <p className={styles.commerce_without}>Commerce without compromise</p>
-                <p>
+                <p className={styles.free_your_storefront}>
                   Free your storefront from your backend. With headless
                   <br />
                   themes and extensive options for modelling products, you
@@ -43,9 +43,6 @@ function MadeForGrowth() {
                 <img src="/picture/image_3-removebg-preview.png" alt="" />
               </div>
             </div>
-
-
-
           </div>
         </div>
       </>
