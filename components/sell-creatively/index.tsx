@@ -22,7 +22,7 @@ function SellCreatively(){
           </button>
         </div>
         <div className={styles.picture_1}>
-          <img src="/picture/image21.png" alt="" />
+          <img src="/picture/picturecomputer.png" alt="" />
         </div>
       </>
     );

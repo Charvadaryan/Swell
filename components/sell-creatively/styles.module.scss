@@ -1,11 +1,11 @@
 .wrapper{
-    @apply  flex justify-center mt-20;
+    @apply  flex justify-center mt-20 mx-16;
     .sell{
         @apply md:text-7xl sm:text-6xl text-4xl;
     } 
 }
 .swell_is_the_most_powerful{
-    @apply md:text-2xl lg:text-xl text-lg text-center mt-10;
+    @apply lg:text-2xl md:text-xl text-lg text-center mt-10;
     .headless{
         @apply text-purple-700;
     }

@@ -2,13 +2,14 @@ import type {NextPage} from 'next';
 import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/Home.module.css';
-import NavBar from '../components/navBar/navBar';
-import Footer from '../components/footer/footer';
-import HowDoes from '../components/howDoes/howDoes';
-import MadeForGrowth from '../components/madeForGrowth/madeForGrowth';
-import MerchantsOnTheMove from '../components/merchantsOnTheMove/merchantsOnTheMove';
-import SellCreatively from '../components/sellCreatively/sellCreatinely';
-import WhatYouNeed from '../components/whatYouNeed/whatYouNeed';
+import NavBar from '../components/nav-Bar/index';
+import Footer from '../components/footer/index';
+import HowDoes from '../components/how-Does/index';
+import MadeForGrowth from '../components/made-For-Growth/index';
+import MerchantsOnTheMove from '../components/merchants-On-The-Move/index';
+import SellCreatively from '../components/sell-Creatively/index';
+import WhatYouNeed from '../components/what-You-Need/index';
+import Partners from '../components/partners/index'
 
  const Home: NextPage = () =>  {
   return (
@@ -26,6 +27,7 @@ import WhatYouNeed from '../components/whatYouNeed/whatYouNeed';
           <WhatYouNeed/> 
           <HowDoes/>
           <MerchantsOnTheMove/>
+          <Partners/>
           <Footer/>
         </main>
       </div>

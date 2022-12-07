@@ -1,0 +1,30 @@
+.table_parent{
+    @apply bg-gradient-to-b from-purple-100 to-white mt-6 md:mx-16;
+    .how_does{
+        @apply md:text-4xl lg:text-4xl text-2xl text-center pt-16;
+    }
+    .all_table{
+        @apply overflow-auto  ;
+        .table{
+            @apply grid grid-cols-7  justify-items-center mt-20 w-max gap-8;
+            .table_child{
+                @apply  flex flex-col col-span-3 justify-end min-w-[10rem] ;
+                div{
+                    @apply h-12;
+                }
+            }
+            .chack_or_dash{
+                @apply flex flex-col items-center min-w-[3rem];
+                div{
+                    @apply h-12;
+                } 
+            }
+        }
+    }
+    .last_reviewed{
+        @apply  ml-28;
+    } 
+    .table_footer{
+        @apply text-center py-28 text-purple-500 text-xl;
+    }
+}
