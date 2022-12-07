@@ -11,7 +11,7 @@
                 @apply md:text-4xl sm:text-2xl text-2xl mt-6;
             }
             .until{
-                @apply text-center mt-6
+                @apply text-center mt-6 md:w-9/12;
             }
             .read_the_case{
                 @apply text-purple-700;
@@ -26,7 +26,7 @@
                 @apply  flex items-center md:text-4xl sm:text-2xl text-2xl text-center;
             }
             .free_your_storefront{
-                @apply text-center mt-6;
+                @apply text-center mt-6 md:w-9/12;
             }
             .tell_me_more{
                 @apply text-purple-700;

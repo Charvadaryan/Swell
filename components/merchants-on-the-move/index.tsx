@@ -9,7 +9,7 @@ const merchants = [
     text: "A modern and elegant website, designed by BCMH",
     ps: "Soon the Sun",
     logo: "/picture/dressvector.png",
-    bgColor: "bg-red-200",
+    bgColor: "bg-red-200", 
     isReverse: false,
   },
   {
@@ -35,13 +35,13 @@ const merchants = [
 
 
 function MerchantsOnTheMove() {
-    return (
+    return ( 
       <>
         <div>
           <div>
-            <p className=" md:text-6xl text-3xl text-center my-16">Merchants on the move</p>
+            <p className={styles.merchant}>Merchants on the move</p>
           </div>
-          <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2  mt-18 mx-16 h-auto">
+          <div className={styles.merchant_item}>
             {merchants.map((e) => {
               return (
                 <MerchantItem key={e.id} picture={e.picture} bgColor={e.bgColor} isReverse={e.isReverse} ps={e.ps} logo={e.logo} text={e.text}/>

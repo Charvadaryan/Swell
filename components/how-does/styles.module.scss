@@ -1,10 +1,10 @@
 .table_parent{
-    @apply bg-gradient-to-b from-purple-100 to-white mt-6 md:mx-16;
+    @apply  bg-gradient-to-b from-purple-100 to-white mt-6 md:mx-16;
     .how_does{
         @apply md:text-4xl lg:text-4xl text-2xl text-center pt-16;
     }
     .all_table{
-        @apply overflow-auto  ;
+        @apply overflow-auto;
         .table{
             @apply grid grid-cols-7  justify-items-center mt-20 w-max gap-8;
             .table_child{

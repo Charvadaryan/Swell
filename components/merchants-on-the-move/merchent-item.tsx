@@ -1,4 +1,6 @@
 import { FC } from "react";
+import styles from './styles.module.scss';
+
 
 type MerchantItemProps = {
   isReverse: boolean;
@@ -18,12 +20,12 @@ const MerchantItem: FC<MerchantItemProps> = ({
   logo
 }) => {
   return (
-    <div className={`${bgColor} px-8 flex ${isReverse ? "flex-col-reverse" : "flex-col" }`}>
-      <img src={picture} alt="cover" className={` w-full aspect-square`} />
-      <div>
-        <div  className="flex justify-center mt-24"><img src={logo}/></div>
-        <div className="flex justify-center"><p className="text-center mt-10 w-5/12">{text}</p></div>
-        <p className="text-center mt-10 mb-10">{ps}</p>
+    <div className={`${bgColor} ${styles.add_merchant_item} ${isReverse ? "flex-col-reverse" : "flex-col" }`}>
+      <img src={picture} alt="cover" className={styles.picture}/>
+      <div className={styles.vector}>
+        <div><img src={logo}/></div>
+        <div><p>{text}</p></div>
+        <p>{ps}</p>
       </div>
     </div>
   )

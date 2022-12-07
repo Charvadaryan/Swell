@@ -40,7 +40,7 @@ const jsonData = [
 function HowDoes() {
   return (
     <div className={styles.table_parent}>
-      
+      <div>
         <p className={styles.how_does}>
           How does Swell compare to other <br /> enterprise platforms?
         </p>
@@ -86,6 +86,7 @@ function HowDoes() {
         </div>
         <div>
           <p className={styles.table_footer}>Compare all features</p>
+        </div>
         </div>
     </div>
   );
